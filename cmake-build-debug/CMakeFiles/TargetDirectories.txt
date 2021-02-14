@@ -1,0 +1,3 @@
+/Users/evgeniy.holmanskih/Desktop/Tutor/sofials12/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/evgeniy.holmanskih/Desktop/Tutor/sofials12/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/evgeniy.holmanskih/Desktop/Tutor/sofials12/cmake-build-debug/CMakeFiles/sofials12.dir
