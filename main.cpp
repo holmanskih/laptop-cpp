@@ -41,6 +41,7 @@ enum FilterKey {
     SellerName,     // 3
 };
 
+// todo: value - переменная передать в функию
 void filter(Laptop n[], FilterKey key);
 
 int main() {
@@ -74,25 +75,28 @@ int main() {
     cout << "3 - SellerName \n";
 
     int filterKey;
+    // todo: value - переменная
     cin >> filterKey;
+    // TODO: добавить ввод значения из консоли в переменную value для ключа фильтрования (filterKey -> 0 (price) value -> 1000)
 
     switch (filterKey) {
         case 0:
+            // todo: value - переменная передать в функию
             filter(n,FilterKey::Price);
             break;
         case 1:
+            // todo: value - переменная передать в функию
             filter(n,FilterKey::Model);
             break;
         case 2:
+            // todo: value - переменная передать в функию
             filter(n,FilterKey::Condition);
             break;
          case 3:
+             // todo: value - переменная передать в функию
              filter(n,FilterKey::SellerName);
              break;
     }
-    // фильтр
-
-    // покажем результат
 
 
     cout << FilterKey::Price;
@@ -102,21 +106,16 @@ int main() {
 }
 
 
-// TODO: диаграмму
+// todo: value - переменная передать в функию
 void filter(Laptop n[], FilterKey key) {
-//    for(int i=0; i<6; i++){
-//        // TODO: с помошью switch оператора перебрать значения из enum FilterKey
-//        switch(key) {
-//            case FilterKey::Condition:
-//                if(n[i].condition == userInput) {
+    // todo: перебор массива в цикле for и сравнить параметр ключа и значение
+    for(int i=0; i<6; i++){
+        //todo: добавить switch case со строки 82 и для кажого случая добавишь логику как показано ниже
+//                if(n[i].price <=  value) {
 //                    n[i].toString();
 //    //             cout << n[i].price << ' '<< n[i].model<< ' ' << n[i].condition << ' ' << n[i].sellerName << '\n';
 //                }
 //                // TODO: дописать case для каждого случая FilterKey
 //        }
-//        if(n[i].condition == LaptopCondition::Bad) {
-//            n[i].toString();
-////             cout << n[i].price << ' '<< n[i].model<< ' ' << n[i].condition << ' ' << n[i].sellerName << '\n';
-//        }
-//    }
+        }
 }
