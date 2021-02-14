@@ -44,6 +44,7 @@ enum FilterKey {
 void filter(Laptop n[], FilterKey key);
 
 int main() {
+    setlocale(LC_ALL, "Russian");
     Laptop l;
     l.model = "Xiaomi";
     l.sellerName = "Rozetka";
